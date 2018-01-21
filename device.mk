@@ -376,6 +376,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqsap_shim
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl \
+    libsensorhub \
+    motosh \
+    sensorhub.msm8953 \
+    sensors.msm8953 \
+    sensors.rp \
+    sensors.tof \
+    sensors.tof.vl53l0
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
