@@ -538,9 +538,8 @@ service vendor.qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     writepid /dev/cpuset/system-background/tasks
 
 service vendor.cnd /system/vendor/bin/cnd
-    class main
-    user system
-    group system wifi inet radio wakelock net_admin
+    class late_start
+    socket cnd stream 660 root inet
 
 service vendor.qseeproxydaemon /system/vendor/bin/qseeproxydaemon
     class late_start
