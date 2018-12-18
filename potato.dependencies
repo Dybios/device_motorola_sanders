@@ -2,11 +2,9 @@
   {
     "repository": "PotatoDevices/vendor_motorola_sanders",
     "target_path": "vendor/motorola/sanders",
-    "branch": "baked-release"
   },
   {
     "repository": "PotatoDevices/kernel_motorola_sanders",
-    "target_path": "kernel/motorola/msm8953",
-    "branch": "baked-release"
+    "target_path": "kernel/motorola/sanders"
   }
 ]
