@@ -235,7 +235,9 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/lib/libmot_gpu_mapper.so|libgpu_mapper_shim.so \
     /vendor/lib64/libril-qc-qmi-1.so|libcutils_shim.so \
     /vendor/lib/libril-qc-qmi-1.so|libcutils_shim.so \
-    /product/lib64/libdpmframework.so|libcutils_shim.so
+    /product/lib64/libdpmframework.so|libcutils_shim.so \
+    /system/lib/libwfdnative.so|libshim_wfdservice.so \
+    /system/lib64/libwfdnative.so|libshim_wfdservice.so
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
