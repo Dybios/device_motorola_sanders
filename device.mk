@@ -361,6 +361,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.mmi.boot.sh \
     init.mmi.rc \
+    init.msm.usb.configfs.rc \
     init.mmi.usb.rc \
     init.qcom.rc \
     init.qcom.sensors.sh \
